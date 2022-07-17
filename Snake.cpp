@@ -136,7 +136,7 @@ void setFruit() {
 		fruit.first = x;
 		fruit.second = y;
 	}
-	arr[fruit.first][fruit.second] = 'P';
+	arr[fruit.first][fruit.second] = 'F';
 }
 void drawArea() {
 
