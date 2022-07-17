@@ -136,7 +136,7 @@ void setFruit() {
 		fruit.first = x;
 		fruit.second = y;
 	}
-	arr[fruit.first][fruit.second] = 'P';
+	arr[fruit.first][fruit.second] = 'F';
 }
 void drawArea() {
 
@@ -179,7 +179,7 @@ void _input() {
 }
 
 void Logic() {
-	int speed = 300;
+	int speed = 500;
 
 	if (Score >= 30) { speed = 200; Level = 2; }
 	if (Score >= 50) { speed = 100; Level = 3; }
